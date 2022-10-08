@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lab Exercise Week-2</string>
+    <string name="submit">Submit</string>
+    <string name="placeholder">Enter value here</string>
+    <string name="empty"> </string>
+
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Week3-LabExercise2</string>
+    <string name="web_btn">Open Web</string>
+    <string name="map_btn">Open Map</string>
+    <string name="activity_btn">Open Activity</string>
+    <string name="back_btn">Back</string>
+    <string name="submit">Submit</string>
+    <string name="placeholder">Enter value here</string>
+    <string name="empty"> </string>
+</resources>

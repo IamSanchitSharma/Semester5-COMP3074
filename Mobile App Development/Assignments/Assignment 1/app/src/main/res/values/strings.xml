@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Assignment1_101331806</string>
+    <string name="input_hours">Enter Number Of Hours</string>
+    <string name="input_rate">Enter Hourly Rate</string>
+    <string name="submit">Submit</string>
+</resources>
