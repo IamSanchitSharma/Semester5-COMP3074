@@ -1,0 +1,9 @@
+PyCharm
+Itelij
+Pyhton Interpreter 
+Java
+Git/Git Hub
+Andriod Studio
+JDK LTS or 18
+Maven 3.0+
+

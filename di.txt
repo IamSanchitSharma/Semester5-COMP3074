@@ -1,0 +1,8 @@
+What is dependecy injection?
+
+- Design Pattern
+- Loose and tight coupling. Do not tight coupling.
+- Dependency injection containers
+- @component: from spring boot
+- 
+

@@ -1,0 +1,20 @@
+Lab Commands & More
+ 
+Below you’ll find some of the commands we used in our lab this week along with some additional material for you to explore should curiosity prompt you to do so.
+ 
+The additional resources found here; you will not be tested on nor required to complete. It’s only intended to make your work easier and to arm you with more industry knowledge.
+ 
+Git
+`git branch dep-incusions` - creates a branch for us to work in
+`git checkout dep-inclusions` - switches us to track on that branch for changes
+` git push  --set-upstream origin dep-inclusions ` - ensures our local branch work is pushed to GitHub on the respective branch
+ 
+NPM
+`npm install` - install npm project dependencies
+`npm run build` - after npm dependencies are installed, build them
+`npm run start` - once dependencies are built, start the application
+ 
+Additional Resources
+https://github.com/robbyrussell/oh-my-zsh
+https://ohmyz.sh/
+https://github.com/powerline/fonts

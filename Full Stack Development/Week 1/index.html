@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 1</title>
+    <script>
+        console.log("Welcome sir")
+
+        var x = 100
+        console.log(x)
+
+        // Var has scope in every block, it acts as a global variable regradless where it is used
+        // Not matter where the var variable is it's value is global even inside the function
+
+        function test(){
+            x = "Hello world"
+            console.log(x)
+        }
+
+        // Output here will be Hello World as well since x in line 18 has global scope 
+        console.log(x)
+
+        // This is different in let keyword
+
+        let y = 5
+        function test2(){
+            let y = "Sanchit"
+            console.log(y)
+        }
+
+        console.log(y)
+
+        // Let is also used in the hoisting, which means use before decleared since interpreter picks 
+        // let variables at the top 
+
+        const c = 2
+        // const cannot be used before declared NO HOISTING 
+
+
+        // OBJECTS
+
+        let student = {
+            studentid: 10,
+            studentName: "Sanchit",
+            studentAge: 21
+        }
+
+        // Class
+        class Student{
+            constructor(sid, name){
+                this.name = name
+                this.id = sid
+            }
+
+            display = function(){
+                console.log(this.name)
+                console.log(this.id)
+            }
+
+            display2(){
+                console.log(this.name)
+                console.log(this.id)
+            }
+            // NEVER USE ARROW FUNCTIONS IN THE CLASS 
+        }
+        
+        // By default this refers to the window object in the web page
+        console.log(this)
+
+        // PROTOTYPING
+
+        function Employee(sid, name){
+            this.sid = sid
+            this.name = name
+            console.log("Employee Function")
+        }
+
+        Employee.prototype.display = function(){
+            console.log(this)
+            console.log("Employee Display function")
+            console.log(`Employee ${this.sid} - ${this}`)
+        }
+
+        emp1 = new Employee(1, "San")
+
+        e1.display()
+
+        console.log(e1)
+
+    </script>
+</head>
+<body>
+    <h1>Day 1 - Lab Code</h1>
+</body>
+</html>

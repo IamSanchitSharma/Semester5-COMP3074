@@ -1,0 +1,35 @@
+
+CHAPTER 1 DATA SCIENCE HANDBOOK NOTES
+
+By the developer of the iPython (Fernando Perez), iPython could be defined as a tool for entire lifecycle of research computing. iPython is an interactive control panel for the engine of our data science tasks i.e Python.
+
+iPython is related to Jupyter i.e browser based notebook.
+
+iPython is about using Python effectively for interactive scientific and data-intensive computing. 
+
+Launch IPython interpreter by typing ipython in the command line.  
+
+The Jupyter notebook is a browser-based graphical interface to the IPython shell, and
+builds on it a rich set of dynamic display capabilities. By including formatted texts, static, and dynamic visualizations, mathematical equations, JS widgets, and much more. And unlike shell could be saved as notebooks as well.
+
+Though the IPython notebook is viewed and edited through your web browser win‐
+dow, it must connect to a running Python process in order to execute code. To start
+this process (known as a “kernel”), run the following command in your system shell:
+$ jupyter notebook
+
+Every Python object contains the Help and Documentation in reference to a string, known as a docstring, which in most cases will contain a concise summary of the object and how to use it. We use help() function to access this info. For e.g help(len).
+
+Shorthand for help(function_name) is: 
+function_name?
+
+These functions and the notation also works with the object methods like string_name.intsert?
+
+How to make docstrings for user defined functions?
+Note that to create a docstring for our function, we simply placed a string literal in the first line. Because docstrings are usually multiple lines, by convention we used Python’s triple-quote notation for multiline strings.
+
+
+
+
+
+
+

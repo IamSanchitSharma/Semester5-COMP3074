@@ -1,0 +1,5 @@
+Exercise 01 – Initializing Git
+Open up the terminal and change it to your `home` directory
+Create a folder called comp3104
+Initialize a new git project in the comp3104 directory
+Submit a Screenshot of your terminal showing all commands as your submission.
