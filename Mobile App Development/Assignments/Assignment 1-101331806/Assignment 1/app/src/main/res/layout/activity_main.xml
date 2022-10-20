@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/hourly_rate"
+        android:layout_width="222dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="44dp"
+        android:ems="10"
+        android:hint="Enter Hourly Rate"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toTopOf="@+id/total_pay_output"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/no_of_hours"
+        android:layout_width="222dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="32dp"
+        android:ems="10"
+        android:hint="Enter Number of Hours"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toTopOf="@+id/hourly_rate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/submit_data"
+        android:layout_width="113dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="44dp"
+        android:text="@string/submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/total_pay_output"
+        android:layout_width="201dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="44dp"
+        android:fontFamily="sans-serif-black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/full_name_box"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/full_name_box"
+        android:layout_width="205dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="sans-serif-black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/submit_data"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="52dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="@string/header"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/no_of_hours"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
